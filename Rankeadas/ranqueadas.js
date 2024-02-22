@@ -1,6 +1,6 @@
 const calculaNivel = (victory, defeat) =>{
     
-    const nivelheroi = ``
+    let nivelheroi = ""
     const resultado = (victory - defeat)
 
     if(victory <= 10){
@@ -19,7 +19,7 @@ const calculaNivel = (victory, defeat) =>{
         nivelheroi = "Imortal"
     }
     console.log(`O Herói tem saldo de ${victory} está no nível de ${nivelheroi}`)
-    return resultado
+    
 }
 
-console.log(calculaNivel(30,50));
+calculaNivel(150,90)
